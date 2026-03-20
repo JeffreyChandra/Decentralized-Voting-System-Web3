@@ -32,12 +32,12 @@ Before running this project, ensure you have:
    cd Decentralized-Voting-System-Web3-
 
 2. **Navigate to Frontend and Install dependencies:**
-    cd Frontend/voting-web3
+    ```cd Frontend/voting-web3
     npm install
 
 3. **Configure Environment Variables:**
-    NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_id_here
+    ```NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_id_here
     VOTING_CONTRACT_ADDRESS=0xYourContractAddressHere
 
 4. **Run the development server:**
-    npm run dev
+    ```npm run dev
